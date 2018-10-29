@@ -39,8 +39,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :elian, Elian.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "elian_dev_user",
+  password: "elian_dev_user_password",
   database: "elian_dev",
   hostname: "localhost",
   pool_size: 10
