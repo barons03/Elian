@@ -14,7 +14,9 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/db_connection" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/decimal" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ecto" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ecto_sql" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/gettext" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/jason" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/mime" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/phoenix" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/phoenix_ecto" />
@@ -25,6 +27,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/poison" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/postgrex" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ranch" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/telemetry" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
@@ -46,5 +49,8 @@
     <orderEntry type="library" name="db_connection" level="project" />
     <orderEntry type="library" name="connection" level="project" />
     <orderEntry type="library" name="plug_cowboy" level="project" />
+    <orderEntry type="library" name="jason" level="project" />
+    <orderEntry type="library" name="ecto_sql" level="project" />
+    <orderEntry type="library" name="telemetry" level="project" />
   </component>
 </module>

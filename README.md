@@ -10,6 +10,13 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
+# Database configuration (development)
+```sql
+CREATE DATABASE elian_dev;
+CREATE USER elian_dev_user WITH ENCRYPTED PASSWORD 'elian_dev_user_password';
+GRANT ALL PRIVILEGES ON DATABASE elian_dev TO elian_dev_user;
+```
+
 ## Learn more
 
   * Official website: http://www.phoenixframework.org/
