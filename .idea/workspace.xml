@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32706246-3fea-4866-bff7-17dd58ae5f3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/elian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/elian.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,6 +44,7 @@
         <counts>
           <entry key="ex" value="2" />
           <entry key="exs" value="6" />
+          <entry key="gitignore" value="1" />
           <entry key="md" value="2" />
           <entry key="sql" value="2" />
         </counts>
@@ -53,7 +54,7 @@
           <entry key="Elixir Script" value="5" />
           <entry key="Elixir file" value="2" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -61,8 +62,10 @@
         <counts>
           <entry key="ex" value="526" />
           <entry key="exs" value="92" />
+          <entry key="gitignore" value="39" />
           <entry key="md" value="1" />
           <entry key="sql" value="4" />
+          <entry key="txt" value="93" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -70,6 +73,7 @@
           <entry key="Elixir Script" value="92" />
           <entry key="Elixir file" value="526" />
           <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="132" />
           <entry key="Scratch" value="4" />
         </counts>
       </usages-collector>
@@ -97,11 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/elian/accounts/user.ex">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -157,6 +170,7 @@
         <option value="$PROJECT_DIR$/priv/repo/migrations/20181030173623_create_sers.exs" />
         <option value="$PROJECT_DIR$/lib/elian/accounts/accounts.ex" />
         <option value="$PROJECT_DIR$/lib/elian/accounts/user.ex" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -294,12 +308,20 @@
       <workItem from="1540836743059" duration="143000" />
       <workItem from="1540837109020" duration="644000" />
       <workItem from="1540837892095" duration="4619000" />
-      <workItem from="1540920194596" duration="4459000" />
+      <workItem from="1540920194596" duration="5921000" />
     </task>
+    <task id="LOCAL-00001" summary="User account registration and verification.">
+      <created>1540965444579</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540965444579</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9865000" />
+    <option name="totallyTimeSpent" value="11327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,6 +363,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="User account registration and verification." />
+    <option name="LAST_COMMIT_MESSAGE" value="User account registration and verification." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/elian_web/views/error_view_test.exs">
@@ -400,6 +426,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>
