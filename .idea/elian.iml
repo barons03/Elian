@@ -2,7 +2,7 @@
 <module type="WEB_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Elixir" name="Elixir facet">
-      <configuration sdkName="Unknown Elixir version at C:/Program Files (x86)/Elixir" />
+      <configuration sdkName="Elixir 1.7.4" />
     </facet>
   </component>
   <component name="NewModuleRootManager">
@@ -24,7 +24,6 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/plug" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/plug_cowboy" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/plug_crypto" />
-      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/poison" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/postgrex" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ranch" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/telemetry" />
@@ -33,7 +32,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Unknown Elixir version at C:/Program Files (x86)/Elixir" level="application" />
+    <orderEntry type="library" name="Elixir 1.7.4" level="application" />
     <orderEntry type="library" name="phoenix" level="project" />
     <orderEntry type="library" name="cowboy" level="project" />
     <orderEntry type="library" name="plug" level="project" />

@@ -1,0 +1,19 @@
+defmodule Elian.Repo.Migrations.CreateUsers do
+  use Ecto.Migration
+
+  def change do
+    create table(:users) do
+      add :username, :string, null: false
+      add :email, :string, null: false
+      add :password, :string, null: false
+      add :activated, :boolean, default: false, null: false
+      add :registered_on, :utc_datetime, null: false
+      add :activated_on, :utc_datetime, null: false
+
+      timestamps()
+    end
+
+    create unique_index(:sers, [:username])
+    create unique_index(:sers, [:email])
+  end
+end
